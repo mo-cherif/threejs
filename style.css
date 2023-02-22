@@ -6,4 +6,32 @@
 
 body, html {
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.title {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -85%);
+}
+
+h2{
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 1rem;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -95%);
 }
